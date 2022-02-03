@@ -363,6 +363,13 @@ h1{
 
 /* ***************** footer css ************** */
 
+.footer-row{
+    display: flex;
+    justify-content: baseline;
+    margin-top: 10rem;
+}
+
+
 ul {
     list-style-type: none;
 }
