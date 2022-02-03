@@ -102,7 +102,7 @@
     white-space: pre-wrap;
 }
 
-@media(max-width: 800px){
+@media(max-width: 700px){
     .top-para{
         display: block;
         visibility: hidden;  
@@ -113,7 +113,13 @@
     margin: 0% 50% 5% 10%;
     border: 3px solid transparent;
     border-radius: 45px;
-    padding: 5px 25px 5px 25px
+    padding: 5px 25px 5px 25px;
+}
+@media(max-width:700px){
+    .top-btn{
+       display: block;
+       visibility: hidden;
+    }
 }
 
 .top-btn a{
