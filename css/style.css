@@ -8,6 +8,23 @@ body{
     background-size: 100% auto;
 }
 
+.greeting{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+    color: #15138b;
+    margin-left: 15px;
+    font-family: sans-serif ;
+}
+
+.greeting:hover{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+    color: #fd0000;
+    margin-left: 15px;
+}
+
 
 /* navigation  */
 
@@ -94,10 +111,16 @@ body{
     width: 100%;
 }
 
+.welcomeScript{
+    display: flex;
+    justify-content: left;
+    padding: 18% 0% 0% 9%;
+}
+
 .heading{
     display: flex;
     justify-content: left;
-    padding: 20% 0% 1% 10%;
+    padding: 0% 0% 1% 10%;
 }
 
 
