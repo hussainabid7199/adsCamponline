@@ -74,7 +74,7 @@
 .background-img{
     background-image: url('assets/img/Frame\ 1.png');  
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 100% auto;
 }
 
 .background-img{
@@ -88,8 +88,25 @@
     padding: 15% 0% 2% 10%;
 }
 
+
 .top-para{
     padding: 0% 50% 1% 10%;
+    width: auto;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.top-para:hover{
+    overflow: visible;
+    white-space: pre-wrap;
+}
+
+@media(max-width: 800px){
+    .top-para{
+        display: block;
+        visibility: hidden;  
+    }
 }
 
 .top-btn{
@@ -104,4 +121,17 @@
     color: #ffffff;
 }
 
+.text-color{
+    color: red;
+}
+
+h1{
+    font-size: 2.5em;
+}
+
+@media (max-width:768px){
+    h1{
+        font-size: 1.0em;
+    }
+}
 
