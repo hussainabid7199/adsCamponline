@@ -67,9 +67,16 @@
 
 /* navigation  */
 .top-sec-1{
-    height: 55rem;
+    height: 59rem;
     width: 100%;
 }
+@media (max-width:1028px){
+    .top-sec-1{
+        height: fit-content;
+        width: 100%;
+    }
+}
+
 
 .background-img{
     background-image: url('assets/img/Frame\ 1.png');  
@@ -85,12 +92,12 @@
 .heading{
     display: flex;
     justify-content: left;
-    padding: 15% 0% 2% 10%;
+    padding: 20% 0% 1% 10%;
 }
 
 
 .top-para{
-    padding: 0% 50% 1% 10%;
+    padding: 1% 50% 1% 10%;
     width: auto;
     white-space: nowrap;
     overflow: hidden;
@@ -110,7 +117,7 @@
 }
 
 .top-btn{
-    margin: 0% 50% 5% 10%;
+    margin: 1% 50% 5% 10%;
     border: 3px solid transparent;
     border-radius: 45px;
     padding: 5px 25px 5px 25px;
