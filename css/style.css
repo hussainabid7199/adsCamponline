@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+body{
+    background-repeat: repeat;
+    background-size: 100% auto;
+}
+
 
 /* navigation  */
 
@@ -79,9 +84,9 @@
 
 
 .background-img{
-    background-image: url('assets/img/Frame\ 1.png');  
     background-repeat: no-repeat;
     background-size: 100% auto;
+
 }
 
 .background-img{
@@ -151,13 +156,145 @@ h1{
 
 /* what do we do */
 
-.task-we-do{
-    display: grid;
-    height: 500px;
-    width: 100%;
+.container{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 50px;
 }
 
 
+.task{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    overflow: hidden;
+    margin-left: 70px;
+}
+
+.item{
+    height: 250px;
+    width: 220px;
+    border: #ffffff 1px solid;
+    border-radius: 10px;
+    margin: 8px;
+    background-color: #ffffff;
+    box-shadow: #ffffff 0 0 2px;
+}
+
+.item img{
+    width: 60px;
+    height: auto;
+}
+
+.mini-icon{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+
+.box-title{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 650;
+    padding: 2px;
+    margin: 10px;
+}
+
+.item p{
+    text-align: center;
+    font-size: 0.7rem;
+    font-weight: 450;
+    margin: 9px;
+}
+
+.item .btn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.btn a{
+    text-decoration: none;
+    font-weight: 790;
+}
+
+.text-color-tile{
+    color: rgb(1, 53, 150);
+}
+
+.text-color-tile:hover{
+    color: rgb(240, 0, 0);
+    font-size: 16.5px;
+}
+
+/* 
+<div class="task-detail">
+                <h3 class="text-color">What do we do</h3>
+                <h2>Choose what you like <br> Our <span class="text-color">Best Service</span></h2>
+            </div> */
+
+
+
+.task-detail{
+    width: 50%;
+    margin-top: 30px;
+}
+
+.content-detail{
+    display: flex;
+    justify-content: left !important;
+}
+
+.content-detail ul li h3{
+    font-weight: 640;
+}
+
+.content-detail h2{
+    font-weight: 750;
+}
+
+.para-content{
+    text-align: left;
+    margin-left: 35px;
+    margin-right: 45px;
+    font-size: 0.9rem;
+    font-weight: 450;
+}
+
+.task-detail button{
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    padding: 3px 40px 3px 40px;
+    background-color: rgb(240, 0, 0);
+    margin-left: 34px;
+    margin-top: 15px;
+}
+
+.task-detail button:hover{
+    border: 1px solid #ffe600;
+    border-radius: 20px;
+    padding: 4px 41px 4px 41px;
+    background-color: rgb(255, 238, 0);
+    margin-left: 34px;
+    margin-top: 15px;
+}
+
+.task-detail button a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 650;
+}
+
+.task-detail button a:hover{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 650;
+    font-size: 16px;
+}
 
 /* what do we do */
 
