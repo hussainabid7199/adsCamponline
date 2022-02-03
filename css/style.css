@@ -135,3 +135,54 @@ h1{
     }
 }
 
+/* ***************** footer css ************** */
+
+ul {
+    list-style-type: none;
+}
+
+.block-center {
+    line-height: 2;
+    text-align: center;
+    margin: auto;
+}
+
+h3 {
+    font-weight: 600;
+    color: blue;
+    margin-bottom: 20px;
+}
+
+.footer-col4 {
+    line-height: 1.5;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.footer-col4 a {
+    padding-left: 5px;
+}
+
+.footer-col1 p {
+    /* width: 90%; */
+    text-align: left;
+    margin: auto;
+    font-size: 1rem;
+    padding: 5%;
+}
+
+@media screen and (min-width: 991px) {
+    .footer-column1 {
+        width: 35%;
+    }
+    .footer-column2 {
+        width: 20%;
+    }
+    .footer-column4 {
+        width: 25%;
+    }
+    .footer-col4 {
+        text-align: left;
+    }
+}
+
