@@ -3,11 +3,6 @@
     padding: 0;
 }
 
-body{
-    background-repeat: repeat;
-    background-size: 100% auto;
-}
-
 .greeting{
     font-size: 30px;
     text-align: center;
@@ -25,6 +20,10 @@ body{
     margin-left: 15px;
 }
 
+.task-we-do, .about-section, .team-main {
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
 
 /* navigation  */
 
@@ -101,7 +100,7 @@ body{
 
 
 .background-img{
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: 100% auto;
 
 }
@@ -183,7 +182,7 @@ h1{
     display: flex;
     justify-content: center;
     justify-content: space-around;
-    margin-top: 50px;
+    padding: 3% 0% 3% 0%;
 }
 
 
@@ -254,14 +253,6 @@ h1{
     font-size: 16.5px;
 }
 
-/* 
-<div class="task-detail">
-                <h3 class="text-color">What do we do</h3>
-                <h2>Choose what you like <br> Our <span class="text-color">Best Service</span></h2>
-            </div> */
-
-
-
 .task-detail{
     width: 50%;
     margin-top: 30px;
@@ -308,7 +299,7 @@ h1{
 
 .task-detail button a{
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-weight: 650;
 }
 
@@ -321,44 +312,34 @@ h1{
 
 /* what do we do */
 
+/* about us start*/
+
+.about-img{
+    margin-right: 5%;
+}
+
+ #item-img img{
+    width: 400px;
+    height: auto;
+}
+
+.about-img .item-img-1{
+    margin-right: 40%;
+}
+
+.about-img .item-img-2{
+    margin-left: 35%;
+} 
+/* about us end */
+
+/* team section start  */
+.container-team{
+    height: 40rem;
+    width: 100%;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* team section end  */
 
 
 /* ***************** footer css ************** */
