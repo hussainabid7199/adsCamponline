@@ -341,6 +341,68 @@ h1{
 
 /* team section end  */
 
+#pricing {
+    text-align: center;
+    padding: 2rem 6rem;
+    font-weight: bold;
+}
+
+#pricing p {
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.pricecard {
+    padding: 3% 5%;
+}
+
+#pricing h2 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    padding: 2% 2% 0%;
+    color: #D2691E;
+}
+
+.btncolor:hover {
+    background-color: orangered;
+}
+
+.line-p2 {
+    background-color: #FF6347;
+    margin: 0;
+    padding-bottom: 1rem;
+}
+
+.btncolor {
+    background-color: #D2691E;
+    color: #fff;
+    font-weight: 600;
+    font-size: larger;
+}
+
+.line-btn {
+    /* margin: auto; */
+    padding: 3%;
+}
+
+.card-header {
+    background-color: rgba(255, 68, 0, 0.76);
+    color: #fff;
+}
+
+.card-header h3 {
+    margin: 0;
+    color: #fff;
+    font-size: 3rem;
+    /* padding: 1rem; */
+}
+
+.card-body {
+    margin: 0;
+    padding: 0;
+}
+
+
 
 /* get in touch */
 
