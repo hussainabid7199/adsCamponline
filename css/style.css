@@ -333,10 +333,26 @@ h1{
 /* about us end */
 
 /* team section start  */
+.our-team{
+    font-size: 3.5rem;
+        font-weight: 700;
+        padding: 3% 0% 0%;
+        color: #D2691E;
+        text-align: center;
+}
+
+.team-para{
+    text-align: center;
+    font-weight: 600;
+    margin-left: 8%;
+    margin-top: 1%;
+    margin-right: 8%;
+}
+
 .team-main{
-    height: 32rem;
+    height: 45rem;
     width: 100%;
-    display: flex;
+    /* display: flex; */
     justify-content: center;
 }
 
@@ -363,13 +379,14 @@ h1{
 
 .carousel-container{
     display: flex;
-    height: 32rem;
+    height: 33rem;
 }
 
 .carousel-img{
     display: flex;
     justify-content: center;
     margin-top: 70px; 
+    padding-left: 80px;
 }
 
 .carousel-img img{
@@ -418,7 +435,7 @@ h1{
 }
 
 
-/* sicial media icon  */
+
 
 
 
