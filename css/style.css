@@ -429,15 +429,151 @@ h1{
 
 /* team section end  */
 
+#pricing {
+    text-align: center;
+    padding: 2rem 6rem;
+    font-weight: bold;
+}
+
+#pricing p {
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.pricecard {
+    padding: 3% 5%;
+}
+
+#pricing h2 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    padding: 2% 2% 0%;
+    color: #D2691E;
+}
+
+.btncolor:hover {
+    background-color: orangered;
+}
+
+.line-p2 {
+    background-color: #FF6347;
+    margin: 0;
+    padding-bottom: 1rem;
+}
+
+.btncolor {
+    background-color: #D2691E;
+    color: #fff;
+    font-weight: 600;
+    font-size: larger;
+}
+
+.line-btn {
+    /* margin: auto; */
+    padding: 3%;
+}
+
+.card-header {
+    background-color: rgba(255, 68, 0, 0.76);
+    color: #fff;
+}
+
+.card-header h3 {
+    margin: 0;
+    color: #fff;
+    font-size: 3rem;
+    /* padding: 1rem; */
+}
+
+.card-body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* get in touch */
+
+#getInTouch {
+    padding: 2% 5%;
+    text-align: center;
+}
+
+.gITclo {
+    padding: 1% 2%;
+}
+
+.gITclo h2 {
+    font-size: 3.8rem;
+    font-weight: 700;
+    padding-right: 2%;
+}
+
+.form-control {
+    width: 70%;
+    height: 3rem;
+    margin: 2rem auto;
+    border-radius: 3rem;
+    padding: 0.5rem 1.5rem;
+    color: orangered;
+    border: 2px solid orangered;
+}
+
+.form-control::placeholder {
+    color: rgb(255, 69, 0);
+}
+
+.textmessage {
+    border-radius: 2rem;
+    height: 12rem;
+}
+
+.submitbtn {
+    border-radius: 3rem;
+    background-color: orangered;
+    border: 2px solid rgb(255, 95, 0);
+}
+
+.submitbtn:hover {
+    background-color: rgb(255, 55, 0);
+    border: 2px solid rgb(255, 95, 0);
+}
+
+.gIT-message {
+    /* width: 90%; */
+    text-align: left;
+    margin: auto;
+    font-size: 0.8rem;
+    padding: 1% 12% 2% 5%;
+    line-height: 1.2;
+    font-weight: 500;
+}
+
+.textMap {
+    display: block;
+    text-align: left;
+    padding: 0 0 0 30%;
+    font-weight: 600;
+}
+
+.textboxMap {
+    margin: 5%;
+}
+
+.map {
+    width: 95%;
+    height: 75%;
+    overflow: hidden;
+}
+
 
 /* ***************** footer css ************** */
 
-.footer-row{
+.footer-row {
     display: flex;
     justify-content: baseline;
-    margin-top: 10rem;
+    padding: 3rem 2rem 0;
 }
-
 
 ul {
     list-style-type: none;
@@ -465,12 +601,13 @@ h3 {
     padding-left: 5px;
 }
 
-.footer-col1 p {
-    /* width: 90%; */
+.footer-message {
+    width: 90%;
     text-align: left;
     margin: auto;
-    font-size: 1rem;
-    padding: 5%;
+    font-size: 0.8rem;
+    padding: 3%;
+    line-height: 1.2;
 }
 
 @media screen and (min-width: 991px) {
@@ -487,4 +624,3 @@ h3 {
         text-align: left;
     }
 }
-
