@@ -333,10 +333,98 @@ h1{
 /* about us end */
 
 /* team section start  */
-.container-team{
-    height: 40rem;
+.team-main{
+    height: 32rem;
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
+
+.team{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.carousel-inner{
+    height: 100% !important;
+}
+
+
+#column{
+    float: left;
+    width: 50%;
+    flex: 50%;
+}
+.carousel-container::after{
+   content: "";
+   display: table;
+   clear: both;
+}
+
+.carousel-container{
+    display: flex;
+    height: 32rem;
+}
+
+.carousel-img{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px; 
+}
+
+.carousel-img img{
+   height: auto;
+   width: 255px !important;
+   position: absolute;
+}
+
+.carousel-item{
+    height: 100%;
+}
+
+.team-content{
+    height: 100%;
+    width: 100%;
+    margin: 79px 25px;
+}
+
+.name h3{
+    color: rgb(2, 2, 114);
+    text-decoration: none;
+    font: 20px;
+    font-weight: 650;
+}
+
+.desigination{
+    margin-top: 3%;
+}
+
+.desigination h5{
+    color: rgb(255, 6, 6) !important;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.content{
+    margin-top: 3%;
+    margin-right: 6%;
+    padding-right: 5%;
+}
+
+.content p{
+    color: black;
+    text-decoration: none;
+}
+
+
+/* sicial media icon  */
+
+
+
+
+
+
 
 
 /* team section end  */
