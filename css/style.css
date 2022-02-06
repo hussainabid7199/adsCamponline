@@ -486,6 +486,83 @@ h1{
 
 /* team section end  */
 
+/* portfolio section start  */
+
+
+.container_port {
+    display: flex;
+    margin-top: 10px;
+}
+
+.carousel-item_port {
+    margin: 10%;
+}
+
+.item_p {
+    display: flex;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: white;
+    box-shadow: 0px 0px 3px;
+    border-radius: 10px;
+    height: 270px;
+    width: 290px;
+    margin: 5px;
+}
+
+#carousel-inner-portfolio {
+    height: 30% !important;
+    width: 100% !important;
+}
+
+#carousel-item-margin {
+    margin-top: 35px;
+    margin-bottom: 65px;
+}
+
+.container_port {
+    display: flex;
+    justify-content: center;
+}
+
+.item .tag {
+    color: aliceblue;
+}
+
+#portfolio {
+    height: 60rem;
+}
+
+.port-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.port-btn li {
+    margin-right: 10px;
+    padding: 5px 25px;
+    border: 1px solid rgb(32, 24, 136);
+    border-radius: 30px;
+    background-color: rgb(32, 24, 136);
+}
+
+.port-btn li div button{
+    background-color: rgb(32, 24, 136);
+    border: none;
+    width: 100%;
+    height: 100%;
+}
+
+.port-btn li div button a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 650;
+}
+
+
+
+/* portfolio section end  */
+
 #pricing {
     text-align: center;
     padding: 2rem 6rem;
