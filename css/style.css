@@ -284,7 +284,7 @@ h1{
     border: 1px solid #ffffff;
     border-radius: 20px;
     padding: 3px 40px 3px 40px;
-    background-color: #D2691E;;
+    background-color: #D2691E;
     margin-left: 34px;
     margin-top: 15px;
 }
@@ -435,15 +435,54 @@ h1{
     text-decoration: none;
 }
 
+/* social media icon start */
 
 
 
+.fa {
+    padding: 9px;
+    font-size: 15px;
+    width: 35px;
+    height: auto;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 80%;
+}
 
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.9;
+    background-color: rgba(255, 17, 0, 0.877);
+}
 
+/* Set a specific color for each brand */
 
+/* Facebook Google Linkedin Twitter */
+.fa-facebook, .fa-google, .fa-linkedin, .fa-twitter {
+    background: #102d6b;
+    color: white;
+}
 
+.media-icon{
+    padding-left: 0px !important;
+    margin-top: 20px !important;
+}
+                                    
+.socialmediaIcon{
+    display: flex;
+    justify-content: left;
+    margin-top: 25px;
+}
 
+.socialmediaIcon ul{
+    display: flex;
+}
 
+.socialmediaIcon ul li{
+    padding-right: 10px;
+}
+
+/* social media icon end */
 
 /* team section end  */
 
