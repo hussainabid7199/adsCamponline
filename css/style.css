@@ -101,7 +101,7 @@
 
 
 .background-img{
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-size: 100% auto;
 
 }
@@ -706,6 +706,7 @@ h1{
 
 .footer-row {
     display: flex;
+    flex-wrap: wrap;
     justify-content: baseline;
     padding: 3rem 2rem 0;
 }
