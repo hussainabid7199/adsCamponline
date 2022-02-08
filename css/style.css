@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body{
+    background-image: linear-gradient(150deg,  rgb(164, 246, 252),rgb(243, 156, 255) , rgb(164, 246, 252));
+}
+
 .greeting{
     font-size: 30px;
     text-align: center;
@@ -435,6 +439,16 @@ h1{
     width: 50%;
     flex: 50%;
 }
+@media(max-width:780px){
+   #column{
+        display: flex;
+        justify-content: center;
+       width: 0%;
+       margin-left: 0%;
+       margin-right: 0%;
+       float: none;
+   }
+}
 .carousel-container::after{
    content: "";
    display: table;
@@ -487,7 +501,7 @@ h1{
     width: 100%;
     margin: 79px 25px;
 }
-@media(max-width:780px){
+/* @media(max-width:780px){
     .team-content{
         display: flex;
         flex-wrap: wrap; 
@@ -496,7 +510,7 @@ h1{
         margin: 5px;
         text-align: center;
     }
-}
+} */
 
 .name h3{
     color: rgb(2, 2, 114);
@@ -522,9 +536,27 @@ h1{
     padding-right: 5%;
 }
 
+/* @media(max-width:780px){
+    .content{
+        margin-top: 3%;
+        margin-right: 0%;
+        padding-right: 0%;
+    }
+} */
+
 .content p{
     color: black;
     text-decoration: none;
+}
+@media(max-width:780px){
+    .content, p, p{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        text-align: center;
+        font-size: 0.7rem;
+        font-weight: 450;
+        margin: 2px;
+    }
 }
 
 /* social media icon start */
@@ -586,9 +618,13 @@ h1{
     justify-content: center;
     margin-top: 10px;
 }
-
-.carousel-item_port {
-    margin: 10%;
+@media(max-width:780px){
+    .container_port{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+        margin: 5% 3%;
+    }
 }
 
 .item_p {
@@ -601,6 +637,12 @@ h1{
     width: 240px;
     margin: 5px;
 }
+@media(max-width:768px){
+    .item_p{
+       height: 210px;
+       width: auto;
+    }
+}
 
 .btn-port{
     visibility: hidden;
@@ -609,6 +651,13 @@ h1{
 #item1 img{
     width: 100%;
     height: 100%;
+}
+@media(max-width:780px){  
+    #item1 img{
+        width: 100%;
+        height: 100%;
+        border-radius: 12px;
+    }
 }
 
 #carousel-inner-portfolio {
@@ -628,15 +677,35 @@ h1{
 #portfolio {
     height: 60rem;
 }
+@media(max-width:780px){
+    #portfolio {
+        height: 71rem;
+        margin-top: 45px;
+    } 
+}
 
 .port-btn {
     display: flex;
     justify-content: center;
 }
+@media(max-width:780px){
+    .port-btn {
+        visibility: collapse;
+        display: block;
+        height: 0px;
+        width: 0px;
+    }
+}
 
 .port-btn li {
     margin-right: 10px;
 }
+@media(max-width:780px){
+    .port-btn li {
+        margin-right: 0px;
+    }
+}
+
 
 .port-btn li div button{
     background-color: rgb(32, 24, 136);
