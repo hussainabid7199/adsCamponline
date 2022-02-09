@@ -427,8 +427,15 @@ h1{
 .team-main{
     height: 45rem;
     width: 100%;
-    /* display: flex; */
     justify-content: center;
+}
+@media (max-width :780px) {
+    .team-main {
+        display: block;
+        visibility: collapse;
+        height: 0px;
+        width: 0px;
+    }
 }
 
 .team{
@@ -447,16 +454,6 @@ h1{
     flex: 50%;
 }
   
-/* @media(max-width:780px){
-   #column{
-        display: flex;
-        justify-content: center;
-       width: 0%;
-       margin-left: 0%;
-       margin-right: 0%;
-       float: none;
-   }
-} */
 .carousel-container::after{
    content: "";
    display: table;
@@ -467,11 +464,6 @@ h1{
     display: flex;
     height: 33rem;
 }
-/* @media(max-width:780px){
-    .carousel-container{
-        display: block;
-    }
-} */
 
 .carousel-img{
     display: flex;
@@ -479,26 +471,12 @@ h1{
     margin-top: 70px; 
     padding-left: 80px;
 }
-/* @media(max-width:780px){
-    .carousel-img{
-        display: block;
-        visibility: collapse;
-        padding-left: 0px;
-    }
-} */
 
 .carousel-img img{
    height: auto;
    width: 255px !important;
    position: absolute;
 }
-/* @media(max-width:780px){
-    .carousel-img img{
-        width: 0px;
-        display: block;
-        visibility: collapse;
-    }
-} */
 
 .carousel-item{
     height: 100%;
@@ -539,16 +517,6 @@ h1{
     color: black;
     text-decoration: none;
 }
-/* @media(max-width:780px){
-    .content, p, p{
-        overflow: hidden;
-        text-overflow: ellipsis;
-        text-align: center;
-        font-size: 0.7rem;
-        font-weight: 450;
-        margin: 2px;
-    }
-} */
 
 .carousel-indicators{
     margin-bottom: -9px;
