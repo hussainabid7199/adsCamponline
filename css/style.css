@@ -810,6 +810,14 @@ h1{
     padding: 2rem 6rem;
     font-weight: bold;
 }
+@media(min-width:200px) and (max-width:780px){
+    #pricing {
+        text-align: center;
+        padding: 2rem 3rem;
+        font-weight: bold;
+        margin-top: 3rem;
+    }
+}
 
 #pricing p {
     text-align: center;
