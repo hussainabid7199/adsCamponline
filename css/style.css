@@ -550,6 +550,10 @@ h1{
     }
 } */
 
+.carousel-indicators{
+    margin-bottom: -9px;
+}
+
 /* social media icon start */
 
 
