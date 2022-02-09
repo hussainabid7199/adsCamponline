@@ -384,7 +384,14 @@ h1{
 
 .about-img{
     margin-right: 5%;
+    margin-top: 6%;
 }
+@media(max-width:780px){
+    .about-img{
+        margin-top: 40px;
+    }
+}
+
 
  #item-img img{
     width: 400px;
@@ -439,7 +446,8 @@ h1{
     width: 50%;
     flex: 50%;
 }
-@media(max-width:780px){
+  
+/* @media(max-width:780px){
    #column{
         display: flex;
         justify-content: center;
@@ -448,7 +456,7 @@ h1{
        margin-right: 0%;
        float: none;
    }
-}
+} */
 .carousel-container::after{
    content: "";
    display: table;
@@ -459,11 +467,11 @@ h1{
     display: flex;
     height: 33rem;
 }
-@media(max-width:780px){
+/* @media(max-width:780px){
     .carousel-container{
         display: block;
     }
-}
+} */
 
 .carousel-img{
     display: flex;
@@ -471,26 +479,26 @@ h1{
     margin-top: 70px; 
     padding-left: 80px;
 }
-@media(max-width:780px){
+/* @media(max-width:780px){
     .carousel-img{
         display: block;
         visibility: collapse;
         padding-left: 0px;
     }
-}
+} */
 
 .carousel-img img{
    height: auto;
    width: 255px !important;
    position: absolute;
 }
-@media(max-width:780px){
+/* @media(max-width:780px){
     .carousel-img img{
         width: 0px;
         display: block;
         visibility: collapse;
     }
-}
+} */
 
 .carousel-item{
     height: 100%;
@@ -501,16 +509,7 @@ h1{
     width: 100%;
     margin: 79px 25px;
 }
-/* @media(max-width:780px){
-    .team-content{
-        display: flex;
-        flex-wrap: wrap; 
-        justify-content: center;
-        justify-content: space-around;
-        margin: 5px;
-        text-align: center;
-    }
-} */
+
 
 .name h3{
     color: rgb(2, 2, 114);
@@ -536,19 +535,11 @@ h1{
     padding-right: 5%;
 }
 
-/* @media(max-width:780px){
-    .content{
-        margin-top: 3%;
-        margin-right: 0%;
-        padding-right: 0%;
-    }
-} */
-
 .content p{
     color: black;
     text-decoration: none;
 }
-@media(max-width:780px){
+/* @media(max-width:780px){
     .content, p, p{
         overflow: hidden;
         text-overflow: ellipsis;
@@ -557,7 +548,7 @@ h1{
         font-weight: 450;
         margin: 2px;
     }
-}
+} */
 
 /* social media icon start */
 
@@ -566,7 +557,7 @@ h1{
 .fa {
     padding: 9px;
     font-size: 15px;
-    width: 35px;
+    width: 34px;
     height: auto;
     text-align: center;
     text-decoration: none;
@@ -607,6 +598,95 @@ h1{
 }
 
 /* social media icon end */
+
+/* team mobile responsive */
+@media(min-width:780px){
+    .mobile-team{
+        display: block;
+        visibility: collapse;
+        width: 0px;
+        height: 0px;
+    }
+}
+@media(min-width:200px) and (max-width:779px) {
+
+    .mobile-team,
+    .m-team {
+        width: 100%;
+        height: 700px;
+        margin-top: 5px;
+    }
+}
+
+@media(min-width:200px) and (max-width:779px) {
+
+    .carousel-inner,
+    .carousel-item,
+        {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media(min-width:200px) and (max-width:779px) {
+    .team-content-m {
+        margin-right: 15%;
+        margin-left: 12%;
+        text-align: center;
+        height: 100%;
+    }
+}
+
+@media(min-width:200px) and (max-width:779px) {
+    .team-content-m {
+        position: relative;
+        text-align: center;
+        height: 640px;
+        width: 80%;
+        margin-top: 3%;
+    }
+}
+
+@media(min-width:200px) and (max-width:779px) {
+    .team-content-m img {
+        height: auto;
+        width: 250px;
+        margin-top: 20px;
+        opacity: 0.5;
+    }
+}
+
+@media(min-width:200px) and (max-width:779px) {
+    .content-team-p-m {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        height: 60%;
+    }
+}
+
+@media(min-width:200px) and (max-width:779px){
+    .carousel-indicators{
+        /* display: block; */
+        /* visibility: collapse; */
+        margin: 15px;
+    }
+}
+
+@media(min-width:200px) and (max-width:779px){
+    .socialmediaIcon{
+        display: flex;
+        justify-content: center;
+        margin-top: 0px;
+    }
+}
+
+
+
+
+/* team mobile responsive */
 
 /* team section end  */
 
