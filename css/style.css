@@ -572,6 +572,16 @@ h1{
 /* social media icon end */
 
 /* team mobile responsive */
+.name-m h3{
+    color: rgb(2, 2, 114);
+    text-decoration: none;
+}
+
+.desigination-m h5{
+    color: rgb(255, 6, 6);
+    text-decoration: none;
+}
+
 @media(min-width:780px){
     .mobile-team{
         display: block;
