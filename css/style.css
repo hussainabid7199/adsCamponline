@@ -4,7 +4,7 @@
 }
 
 body{
-    background-image: linear-gradient(150deg,  rgb(164, 246, 252),rgb(243, 156, 255) , rgb(164, 246, 252));
+    background-image: linear-gradient(250deg,  rgb(164, 246, 252),rgb(243, 156, 255) , rgb(164, 246, 252));
 }
 
 .greeting{
@@ -460,6 +460,7 @@ h1{
 .team{
     margin: 0 !important;
     padding: 0 !important;
+    background-image: linear-gradient(50deg, rgb(214, 214, 214) , rgb(255, 255, 255), rgb(214, 214, 214));
 }
 
 .carousel-inner{
@@ -906,7 +907,7 @@ h1{
 
 #pricing {
     text-align: center;
-    padding: 2rem 6rem;
+    padding: 2rem 3rem;
     font-weight: bold;
     margin-top: 3rem;
 }
