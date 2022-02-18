@@ -4,7 +4,7 @@
 }
 
 body{
-    background-image: linear-gradient(250deg,  rgb(164, 246, 252),rgb(243, 156, 255) , rgb(164, 246, 252));
+    background-image: linear-gradient(150deg,  rgb(164, 246, 252),rgb(243, 156, 255) , rgb(164, 246, 252));
 }
 
 .greeting{
@@ -53,6 +53,13 @@ body{
 
 .navbar{
     padding-top: 0.3rem !important;
+}
+
+.overlay{
+    background: rgba(0, 0, 0, 0.00);
+    position: absolute;
+    top: 0;
+    left: 0; 
 }
 
 
@@ -154,11 +161,13 @@ body{
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    text-decoration: none;
 }
 
 .top-para:hover{
     overflow: visible;
-    white-space: pre-wrap;
+    white-space: pre-line;
+    text-decoration: none;
 }
 
 @media(max-width: 700px){
@@ -375,7 +384,7 @@ h1{
 }
 
 .task-detail button{
-    border: 1px solid #ffffff;
+    border: 1px solid #D2691E;
     border-radius: 20px;
     padding: 3px 40px 3px 40px;
     background-color: #D2691E;
@@ -384,10 +393,10 @@ h1{
 }
 
 .task-detail button:hover{
-    border: 1px solid #ffe600;
+    border: 1px solid #d65b03;
     border-radius: 20px;
     padding: 4px 41px 4px 41px;
-    background-color: rgb(255, 238, 0);
+    background-color: #d65b03;
     margin-left: 34px;
     margin-top: 15px;
 }
@@ -400,7 +409,7 @@ h1{
 
 .task-detail button a:hover{
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-weight: 650;
     font-size: 16px;
 }
@@ -937,6 +946,12 @@ h1{
     padding: 3% 5%;
 }
 
+.pricecard button a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 650;
+}
+
 #pricing h2 {
     font-size: 3.5rem;
     font-weight: 700;
@@ -1190,4 +1205,20 @@ h3 {
     .footer-col4 {
         text-align: left;
     }
+}
+
+
+.copyright a{
+    color: rgb(0, 16, 245);
+    text-decoration: none;
+}
+
+.mail{
+    text-decoration: none;
+    color: black;
+}
+
+.tel{
+    text-decoration: none;
+    color: black;
 }
