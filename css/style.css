@@ -302,6 +302,8 @@ h1{
     font-size: 0.7rem;
     font-weight: 450;
     margin: 9px;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 @media(max-width:780px){
     .item p{
@@ -312,6 +314,12 @@ h1{
         overflow: hidden;
         text-overflow: ellipsis;
     }
+}
+
+.text-wrap{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 
