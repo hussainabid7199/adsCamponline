@@ -63,10 +63,18 @@ body {
 
 .overlay {
     background: rgba(0, 0, 0, 0.00);
+    width: 100%;
     position: absolute;
     top: 0;
     right: 0;
 }
+
+
+/* .navbar-brand {
+    position: absolute;
+    top: 0;
+    left: 0;
+} */
 
 @media (min-width:950px) {
     .nav-end {
